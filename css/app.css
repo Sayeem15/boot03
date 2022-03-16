@@ -1,0 +1,38 @@
+.navbar{background-color: white;}
+.navbar-dark .navbar-nav .nav-link{ color: black !important;
+
+font-size: 15px;
+text-transform: uppercase;
+font-weight: 600;
+letter-spacing: 1px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+    color: black;
+    background-color: #f05a66;
+}
+
+
+
+.navbar-dark .navbar-brand {width: 160px;
+    color: black !important;
+}
+
+.card{ border: 0px solid rgba(0, 0, 0, 0.125); 
+box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+margin-bottom: 1.5rem !important;
+
+}
+.services-section{padding: 120px 0;
+
+}
+
+.service{ text-align: center;
+box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+padding: 36px  ;  }
+.service img{width: 50px;}
+.service h3{}
+.service p{ text-align: center; }
+@media( max-width: 1399px){ .service h3 { font-size:20px; } }
+@media( max-width: 1199px){ .service h3 { font-size:16px; font-weight:600; } }
+@media( max-width: 1199px) {.service{ margin-bottom:20PX }}
